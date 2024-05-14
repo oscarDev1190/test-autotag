@@ -17,3 +17,6 @@ class Calculator:
 
         if n >= 0:
             return math.sqrt(n)
+
+    def f(a):
+        return a
