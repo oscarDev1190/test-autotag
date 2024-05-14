@@ -19,4 +19,4 @@ class Calculator:
             return math.sqrt(n)
 
     def f(a):
-        return a
+        return f"{a}"
