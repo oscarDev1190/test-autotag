@@ -15,4 +15,5 @@ class Calculator:
     def sqrt(n):
         import math
 
-        return math.sqrt(n)
+        if n >= 0:
+            return math.sqrt(n)
