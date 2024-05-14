@@ -11,3 +11,9 @@ class Calculator:
     def div(a, b):
         if b != 0:
             return a / b
+
+    def sqrt(n):
+        import math
+
+        if n >= 0:
+            return math.sqrt(n)
